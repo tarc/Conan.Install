@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata minClientVersion="3.3">
+    <id>Conan.Install</id>
+    <version>$version$</version>
+    <authors>Tarcísio Genaro Rodrigues</authors>
+    <owners>Tarcisio</owners>
+    <projectUrl>https://github.com/tarc/Conan.Install.git</projectUrl>
+    <copyright>Copyright (C) 2020</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <description>MSBuild targets for conan package install.
+
+      This package provides a MSBuild script (Conan.Install.targets) to handle ConanFile items, which can be used to set a conanfile.py (or conanfile.txt) to specify the dependencies of C++ projects. It then makes those dependencies available by importing the generated conanbuildinfo.props file.
+    </description>
+    <summary>MSBuild targets for conan package install.</summary>
+    <tags>c++ conan package manager</tags>
+  </metadata>
+  <files>
+    <file src="*.targets" target="tools" />
+  </files>
+</package>
